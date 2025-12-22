@@ -1,0 +1,29 @@
+{
+  "name": "language-translation-tool",
+  "version": "1.0.0",
+  "description": "A modern, feature-rich language translation web application with text-to-speech, copy functionality, and support for 13 languages",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "translation",
+    "language",
+    "translator",
+    "multilingual",
+    "text-to-speech",
+    "i18n"
+  ],
+  "author": "Rania Sultana",
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "dotenv": "^17.2.3"
+  }
+}
